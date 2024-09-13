@@ -17,6 +17,7 @@ mongooese.connect(
         useNewUrlParser: true,
         useUnifiedTopology: true,
     }
+    
 );
 
 app.listen(3001, () => console.log("SERVER STARTED!"));
